@@ -40,11 +40,58 @@ React Scroll
 
 
 
+La arquitectura que usaría para un portfolio "de nivel empresa"
 
-
-
-
-
+src/
+│
+├── assets/
+│   ├── images/
+│   ├── icons/
+│   └── pdf/
+│
+├── components/
+│   ├── common/
+│   │   ├── Button/
+│   │   ├── SectionTitle/
+│   │   ├── Container/
+│   │   ├── Badge/
+│   │   └── SocialLinks/
+│   │
+│   ├── layout/
+│   │   ├── Navbar/
+│   │   ├── Footer/
+│   │   └── MainLayout/
+│   │
+│   ├── sections/
+│   │   ├── Hero/
+│   │   ├── About/
+│   │   ├── Skills/
+│   │   ├── Projects/
+│   │   ├── Experience/
+│   │   ├── Education/
+│   │   └── Contact/
+│   │
+│   └── ui/
+│       ├── ProjectCard/
+│       ├── SkillCard/
+│       └── Timeline/
+│
+├── data/
+│   ├── projects.js
+│   ├── skills.js
+│   ├── experience.js
+│   └── education.js
+│
+├── hooks/
+│
+├── pages/
+│   └── Home.jsx
+│
+├── styles/
+│
+├── App.jsx
+├── main.jsx
+└── index.css
 
 
 
