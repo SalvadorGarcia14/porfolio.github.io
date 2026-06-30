@@ -95,7 +95,28 @@ src/
 
 
 
+#############################################################################
+Gepeto
+#############################################################################
 
+Mi recomendación para aprender React mientras construís este portfolio
+
+En lugar de intentar terminarlo de una vez, desarrollalo como si fuera un proyecto profesional, con commits pequeños y objetivos claros. Este sería un buen orden:
+
+Crear el proyecto con Vite y configurar Tailwind CSS.
+Definir la estructura de carpetas.
+Crear el MainLayout.
+Desarrollar el Navbar.
+Construir el Hero.
+Implementar la sección About.
+Crear los componentes reutilizables (Button, Badge, Container, etc.).
+Implementar Skills.
+Crear ProjectCard y luego la sección Projects consumiendo los datos desde data/projects.js.
+Añadir Experience y Education.
+Crear el Footer y la sección Contact.
+Incorporar animaciones con Framer Motion.
+Optimizar para dispositivos móviles.
+Desplegar en GitHub Pages o Vercel.
 
 
 
